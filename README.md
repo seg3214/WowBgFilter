@@ -21,7 +21,6 @@ A specialized C# WinForms utility designed for real-time monitoring and automati
 ## 🏁 Getting Started
 1. **Clone the Repository**: Use the GitHub Desktop client or run `git clone https://github.com/seg3214/WowBgFilter`.  
 2. **Prerequisites**: Ensure you have the .NET Framework installed.  
-3. **Build**: Open the `.sln` file in Visual Studio and build the solution to generate the executable. 
   
 ## ⚠️ Disclaimer
 This project was developed for educational purposes regarding network protocol analysis and memory management in C#. Use of such tools in live games may violate Terms of Service.
