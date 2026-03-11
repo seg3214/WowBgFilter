@@ -11,23 +11,15 @@ A specialized C# WinForms utility designed for real-time monitoring and automati
     *   **Auto-Queue**: Automatically applies for Random Battleground invitations.
     *   **Auto-Accept/Leave**: Instantly accepts desired invitations or leaves the queue if the match doesn't meet filter criteria.
 
-## 🛠️ Technical Implementation
-*   **Language/Framework**: C# .NET WinForms.
-*   **Networking**: Implemented raw socket sniffing to capture and deserialize TCP/UDP payloads in real-time.
-*   **Process Manipulation**: Utilized the `BlackMagic.dll` wrapper for safe, managed external memory access (Reading pointers/offsets).
-*   **Architecture**: Built using a central **Data Controller** class that orchestrates memory-read variables and network-captured packet data into a unified state machine.
+## 🛠️ How It Works
+*   **Asynchronous Socket Handling**: Manages a non-blocking socket to monitor TCP/UDP payloads without interfering with game latency.
+*   **Memory Offset Mapping**: Maps specific game client offsets to C# variables to track queue timers and character states in real-time.
+*   **Automated State Machine**: Handles the transition between "Queued," "Invited," and "In-Progress" states automatically based on filtered criteria.
 
 ## 🏁 Getting Started
-
-### Prerequisites
-* **.NET Framework 4.7.2+** or **.NET 6/7/8 SDK**.
-* **Administrative Privileges**: Required for raw socket interception and external process memory access.
-* **Network Driver**: Ensure your firewall allows the application to listen to incoming game server traffic.
-
-### Installation
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com
-   
+1. **Clone the Repository**: Use the GitHub Desktop client or run `git clone https://github.com/seg3214/WowBgFilter`.  
+2. **Prerequisites**: Ensure you have the .NET Framework installed.  
+3. **Build**: Open the `.sln` file in Visual Studio and build the solution to generate the executable. 
+  
 ## ⚠️ Disclaimer
 This project was developed for educational purposes regarding network protocol analysis and memory management in C#. Use of such tools in live games may violate Terms of Service.
