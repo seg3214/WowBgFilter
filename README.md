@@ -3,6 +3,8 @@
 
 A specialized C# WinForms utility designed for real-time monitoring and automation of World of Warcraft (WoW) Battleground (BG) queues by intercepting game traffic and automating queue management.
 
+![App Demo](./assets/anim1.gif)
+
 ## 🚀 Key Features
 *   **Real-Time Packet Interception**: Uses Windows Sockets to peek into incoming game packets, identifying the specific battleground type before the invitation is even shown.
 *   **Live Memory Integration**: Out of process memory reading, syncing intercepted data with real-time game client variables.
