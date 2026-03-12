@@ -13,7 +13,7 @@ A specialized C# WinForms utility designed for real-time monitoring and automati
     *   **Auto-Queue**: Automatically applies for Random Battleground invitations.
     *   **Auto-Accept/Leave**: Instantly accepts desired invitations or leaves the queue if the match doesn't meet filter criteria.
 
-## 🛠️ How It Works
+## ⚙️ How It Works
 *   **Asynchronous Socket Handling**: Manages a non-blocking socket to monitor TCP/UDP payloads without interfering with game latency.
 *   **Memory Offset Mapping**: Maps specific game client offsets to C# variables to track queue timers and character states in real-time.
 *   **Automated State Machine**: Handles the transition between "Queued," "Invited," and "In-Progress" states automatically based on filtered criteria.
