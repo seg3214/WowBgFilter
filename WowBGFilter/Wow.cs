@@ -1,4 +1,13 @@
-﻿using Magic;
+﻿// -----------------------------------------------------------------------
+// <copyright file="Wow.cs" company="seg3214">
+// Copyright (c) 2017-2026 seg3214 (https://github.com)
+// Licensed under the AGPL-3.0 license.
+// 
+// DISCLAIMER: This tool is for educational purposes only. 
+// The author is not responsible for account bans or system damage.
+// </copyright>
+// -----------------------------------------------------------------------
+using Magic;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
