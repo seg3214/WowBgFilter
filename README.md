@@ -4,6 +4,8 @@
 A specialized C# WinForms utility designed for real-time monitoring and automation of World of Warcraft (WoW) Battleground (BG) queues by intercepting game traffic and automating queue management.
 
 ![App Demo](./assets/anim1.gif)
+*Note: Visual demonstrations were captured in a controlled environment for the purpose of validating system stability and latency under real-world conditions.*
+
 
 ## 🚀 Key Features
 *   **Real-Time Packet Interception**: Uses Windows Sockets to peek into incoming game packets, identifying the specific battleground type before the invitation is even shown.
@@ -28,12 +30,14 @@ A specialized C# WinForms utility designed for real-time monitoring and automati
 > 
 > **This tool is for educational and research purposes only.** 
 >
-> ### 🛡️ Use at Your Own Risk
+>### Research Methodology
+> Visual demonstrations were captured in a controlled environment for the purpose of validating system stability and latency under real-world conditions. 
+> ### Use at Your Own Risk
 > The author (and any contributors) are NOT responsible for:
 > *   **Account Actions:** Any bans, suspensions, or penalties applied to your accounts by game developers or anti-cheat systems (e.g., VAC, BattlEye, Easy Anti-Cheat).
 > *   **System Damage:** Any data loss, hardware failure, or system instability caused by the use of this software.
 > *   **Legal Consequences:** Any misuse of this tool that violates local laws or third-party Terms of Service.
 > 
-> ### 📜 License
+> ### License
 > This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. 
