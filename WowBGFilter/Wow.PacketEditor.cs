@@ -1,12 +1,16 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="Wow.PacketEditor.cs" company="seg3214">
-// Copyright (c) 2017-2026 seg3214 (https://github.com)
-// Licensed under the AGPL-3.0 license.
-// 
-// DISCLAIMER: This tool is for educational purposes only. 
-// The author is not responsible for account bans or system damage.
-// </copyright>
-// -----------------------------------------------------------------------
+﻿/* 
+ * This file contains modified code originally from PacketEditor.
+ * 
+ * Original Copyright (c) 2010 We Rule Computers LLC.
+ * Modifications Copyright (c)  2017-2026 seg3214 (https://github.com)
+ * 
+ * The original code was obtained from: https://github.com
+ * Modifications are licensed under the AGPL-3.0.
+ * 
+ * DISCLAIMER: This tool is for educational purposes only. 
+ * The author is not responsible for account bans or system damage.
+ */
+
 using System;
 using System.Collections.Concurrent;
 using System.IO;

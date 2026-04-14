@@ -41,3 +41,6 @@ A specialized C# WinForms utility designed for real-time monitoring and automati
 > ### License
 > This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. 
+> 
+> ### Third-Party Notices
+> This project incorporates bundled code from third parties. For details and full license texts, please see the [THIRD-PARTY-NOTICES](THIRD-PARTY-NOTICES) file.
