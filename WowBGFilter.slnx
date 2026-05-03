@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="WowBGFilter/WowBGFilter.csproj" Id="4e499f80-fab6-40aa-850e-0955e26cda54">
+    <Platform Project="x86" />
+  </Project>
+</Solution>
